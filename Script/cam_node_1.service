@@ -1,0 +1,16 @@
+[Unit]
+Description=neceesarry camera service_1
+Before=AH_1.service
+[Service]
+Type=simple
+User=shuai
+ExecStart=/home/cubot/_2_Camera/Script/cam_node_1.sh
+ExecReload=/home/cubot/_2_Camera/Script/cam_node_1.sh
+ExecStop=/home/cubot/_2_Camera/Script/cam_node_1_kill.sh
+Restart=always
+TimeoutStartSec=2.5
+RestartSec=2.5
+PrivateTmp=false
+[Install]
+WantedBy=multi-user.target
+After=basic.target

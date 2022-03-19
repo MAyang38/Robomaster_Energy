@@ -1,0 +1,8 @@
+//
+// Created by robostar on 2019/10/27.
+//
+
+#ifndef AUTOHIT_GETCAMERAPARAMS_H
+#define AUTOHIT_GETCAMERAPARAMS_H
+
+#endif //AUTOHIT_GETCAMERAPARAMS_H

@@ -1,0 +1,41 @@
+%YAML:1.0
+---
+
+areaRect:             50
+
+areaRatioMin:         0.4
+areaRatioMax:         0.6
+
+heightBlobRectMin:    4
+heightBlobRectMax:    300
+
+#angleBlobRectMin:     25
+angleBlobRectMax:     80
+
+hwRatioBlobRectMin:   0.7
+hwRatioBlobRectMax:   15
+
+
+angleDiffBlobPairs:   25
+
+heightRatioBlobPairs: 0.5
+
+blobSlope:                  35
+
+distanceBlobPairsMin: 10
+distanceBlobPairsMax: 0.5
+
+SingleBarHeighLimit: 40 #暂定一百五；单灯条长度限制
+
+distance1: 20
+distance2: 13.6
+distance3: 0
+
+comgX1:    -4
+comgY1:    -60
+comgX2:    -10
+comgY2:    -66
+comgX3:    -6
+comgY3:    -85
+#红色1  蓝色0
+ENEMY_COLOR:     1
